@@ -8,9 +8,9 @@
   <name>Demo Project</name>
   <url>http://maven.apache.org</url>
   <properties>
+    <jboss-as.hostname>172.17.0.21</jboss-as.hostname>
+    <jboss-as.port>10099</jboss-as.port>
 <!--
-    <jboss-as.hostname>192.168.1.150</jboss-as.hostname>
-    <jboss-as.port>9999</jboss-as.port>
     <jboss-as.username>admin</jboss-as.username>
     <jboss-as.password>jboss4All!</jboss-as.password>
 -->
