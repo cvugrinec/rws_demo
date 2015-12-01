@@ -110,8 +110,8 @@
               <goal>add-resource</goal>
             </goals>
           </execution>
--->
         </executions>
+-->
       </plugin>
     </plugins>
   </build>
