@@ -75,7 +75,7 @@
         <groupId>org.jboss.as.plugins</groupId>
         <artifactId>jboss-as-maven-plugin</artifactId>
         <version>7.7.Final</version>
-
+<!--
         <executions>
           <execution>
             <id>deploy-driver</id>
@@ -110,6 +110,7 @@
               <goal>add-resource</goal>
             </goals>
           </execution>
+-->
         </executions>
       </plugin>
     </plugins>
