@@ -5,12 +5,13 @@ This contains 3 projects that are needed for the demo for rws
   * rws_Demo; demonstrates the usage of the following technologies: java/maven/docker/fabric8/kubernetes/openshift....a simple java project, being build as a docker image, this docker image is being deployed with the fabric8 plugin, which is configured to deploy this docker image to a kubernetes/openshift environment. In stead of setting up a complete environment with atomic rhel/ openshift kubernetes and fabric8, there is a vagrant image available that delivers you the complete stack with everything installed already....I am using this vagrant image in the demo as well:  http://fabric8.io/guide/getStartedVagrant.html
 
 please note in order to run the demo that creates the Dockerfile, you need to have a running docker-machine environment... for e.g.
-export DOCKER_TLS_VERIFY="1"
-export DOCKER_HOST="tcp://192.168.99.101:2376"
-export DOCKER_CERT_PATH="/Users/chris/.docker/machine/machines/default"
-export DOCKER_MACHINE_NAME="default"
-# Run this command to configure your shell:
-# eval "$(docker-machine env default)"
+  * export DOCKER_TLS_VERIFY="1"
+  * export DOCKER_HOST="tcp://192.168.99.101:2376"
+  * export DOCKER_CERT_PATH="/Users/chris/.docker/machine/machines/default"
+  * export DOCKER_MACHINE_NAME="default"
+  
+Run this command to configure your shell:
+eval "$(docker-machine env default)"
 
 you can build the docker image with the following command: mvn clean package docker:build
 
