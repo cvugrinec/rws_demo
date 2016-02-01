@@ -4,12 +4,12 @@
   <groupId>nl.rws.javademo</groupId>
   <artifactId>rws_javaClassicDemo</artifactId>
   <packaging>war</packaging>
-  <version>1.2</version>
+  <version>1.4</version>
   <name>Demo Project</name>
   <url>http://maven.apache.org</url>
   <properties>
     <jboss-as.hostname>127.0.0.1</jboss-as.hostname>
-    <jboss-as.port>10099</jboss-as.port>
+    <jboss-as.port>10199</jboss-as.port>
 <!--
     <jboss-as.username>admin</jboss-as.username>
     <jboss-as.password>jboss4All!</jboss-as.password>

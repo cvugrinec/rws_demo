@@ -86,7 +86,10 @@
               <name>cvugrinec/rws_java-classic-docker:1.0</name>
               <build>
                 <maintainer>cvugrinec@redhat.com</maintainer>
+<!--
                 <from>cvugrinec/javaee7-docker-maven</from>
+-->
+                <from>cvugrinec/jboss-eap64:6.0</from>
                 <assembly>
                   <descriptor>assembly.xml</descriptor>
                   <basedir>/opt/jboss/standalone/deployments/</basedir>
